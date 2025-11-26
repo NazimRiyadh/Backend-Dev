@@ -1,0 +1,21 @@
+### GET /
+GET http://localhost:5003/
+
+### User registration
+POST http://localhost:5003/auth/register
+Content-Type: application/json
+
+{
+    "username": "backend@gmail.com",
+    "password": "backend"
+}
+
+### User login
+POST http://localhost:5003/auth/login
+Content-Type: application/json
+
+{
+    "username": "backend@gmail.com",
+    "password": "backend"
+}
+
